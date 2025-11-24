@@ -6,6 +6,7 @@ interface CardProps {
   onClick?: () => void;
   bgColor?: string;
   textColor?: string;
+  padding?: number;
 }
 
 const CardPrimary: React.FC<CardProps> = ({
@@ -13,12 +14,12 @@ const CardPrimary: React.FC<CardProps> = ({
   onClick,
   bgColor = "rgba(255, 255, 255, 1)",
   textColor = "rgba(31, 41, 55,1)",
+  padding,
 }) => {
   return (
     <div
       style={{
         boxShadow: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
-        marginBottom: "10px",
         cursor: onClick ? "pointer" : "default",
       }}
       onClick={onClick}
@@ -26,7 +27,7 @@ const CardPrimary: React.FC<CardProps> = ({
       <Paper
         elevation={0}
         sx={{
-          p: 3,
+          p: padding ? padding : 3,
           minHeight: 150,
           borderRadius: 3,
           border: "1px solid #E5E7EB",

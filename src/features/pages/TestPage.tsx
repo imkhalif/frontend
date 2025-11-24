@@ -1,5 +1,11 @@
+import { Box } from "@mui/material";
+import MockInterview from "../../components/MockInterview/MockInterview";
+
 const Test = () => {
-  console.log("Test component loaded");
-  return <h1>Test</h1>;
+  return (
+    <Box>
+      <MockInterview />
+    </Box>
+  );
 };
 export default Test;

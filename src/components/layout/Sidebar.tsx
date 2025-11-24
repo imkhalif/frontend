@@ -1,7 +1,11 @@
-import { Box, Typography, List, ListItemButton } from "@mui/material";
+import { Box, Button, Typography, List, ListItemButton } from "@mui/material";
 import Typo from "../typography/typo";
 
-export default function Sidebar() {
+interface Props {
+  closeDrawer?: () => void;
+}
+
+export default function Sidebar({ closeDrawer }: Props) {
   return (
     <Box
       width={240}
@@ -40,6 +44,11 @@ export default function Sidebar() {
           <Typo var="buttonText">Settings</Typo>
         </ListItemButton>
       </List>
+      {closeDrawer && (
+        <Button onClick={closeDrawer} variant="text" sx={{ mt: 2 }}>
+          Close
+        </Button>
+      )}
     </Box>
   );
 }
