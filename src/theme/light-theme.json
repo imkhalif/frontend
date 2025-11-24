@@ -1,0 +1,16 @@
+{
+  "mode": "light",
+  "colors": "./light/colors.json",
+  "typography": "./light/typography.json",
+  "spacing": "./light/spacing.json",
+  "radii": "./light/radii.json",
+  "shadows": "./light/shadows.json",
+  "components": {
+    "button": "./light/components/button.json",
+    "input": "./light/components/input.json",
+    "card": "./light/components/card.json",
+    "table": "./light/components/table.json",
+    "dropdown": "./light/components/dropdown.json",
+    "sidenav": "./light/components/sidenav.json"
+  }
+}

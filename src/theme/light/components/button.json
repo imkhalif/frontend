@@ -1,0 +1,8 @@
+{
+  "backgroundColor": "rgba(79,70,229,1)",
+  "textColor": "rgba(255,255,255,1)",
+  "hoverBackgroundColor": "rgba(67,56,202,1)",
+  "activeBackgroundColor": "rgba(55,48,163,1)",
+  "disabledBackgroundColor": "rgba(229,231,235,1)",
+  "disabledTextColor": "rgba(156,163,175,1)"
+}

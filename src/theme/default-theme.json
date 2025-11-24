@@ -1,0 +1,303 @@
+{
+  "Default": {
+    "colors": {
+      "primaryColor": "rgba(79,70,229,1)",
+      "primaryActiveColor": "rgba(67,56,202,1)",
+      "primaryBorderColor": "rgba(55,48,163,1)",
+      "linkColor": "rgba(79,70,229,1)",
+      "textPrimary": "rgba(31, 41, 55,1)",
+      "textSecondary": "rgba(75, 85, 99,1)",
+      "formInputBorder": "rgba(209 213 219, 1)",
+      "dangerColor": "rgba(220,38,38,1)",
+      "warningColor": "rgba(234,179,8,1)",
+      "successColor": "rgba(34,197,94,1)",
+      "disabledText": "rgba(156,163,175,1)",
+      "scrollbarThumb": "rgba(156,163,175,1)",
+      "scrollbarTrack": "rgba(229,231,235,1)",
+      "blue": "rgba(59,130,246,1)",
+      "green": "rgba(34,197,94,1)",
+      "yellow": "rgba(234,179,8,1)",
+      "orange": "rgba(234,88,12,1)",
+      "red": "rgba(220,38,38,1)"
+    },
+
+    "typography": {
+      "h1": {
+        "fontSize": "1.875rem",
+        "lineHeight": "2.25rem",
+        "fontWeight": 700,
+        "marginBottom": "0.5rem",
+        "color": "rgba(31,41,55,1)"
+      },
+      "h2": {
+        "fontSize": "1.5rem",
+        "lineHeight": "2rem",
+        "fontWeight": 700
+      },
+      "h3": {
+        "fontSize": "1.25rem",
+        "lineHeight": "1.75rem",
+        "fontWeight": 600,
+        "color": "rgba(31,41,55,1)"
+      },
+      "h4": {
+        "fontSize": "1rem",
+        "lineHeight": "1.5rem",
+        "fontWeight": 600
+      },
+      "subtitle": {
+        "fontSize": "1rem",
+        "lineHeight": "1.5rem",
+        "fontWeight": 500,
+        "color": "rgba(75,85,99,1)"
+      },
+      "body": {
+        "fontSize": "1rem",
+        "lineHeight": "1.5rem",
+        "fontWeight": 400
+      },
+      "label": {
+        "fontSize": ".875rem",
+        "lineHeight": "1.25rem",
+        "fontWeight": 400,
+        "color": "rgba(107,114,128,1)"
+      },
+      "labelSmall": {
+        "fontSize": ".75rem",
+        "lineHeight": "1rem",
+        "fontWeight": 400
+      },
+      "buttonText": {
+        "fontSize": ".875rem",
+        "lineHeight": "1.25rem",
+        "fontWeight": 600
+      }
+    },
+
+    "colorCombos": {
+      "blue": {
+        "color": "rgba(37,99,235,1)",
+        "backgroundColor": "rgba(219,234,254,1)"
+      },
+      "green": {
+        "color": "rgba(22,163,74,1)",
+        "backgroundColor": "rgba(220,252,231,1)"
+      },
+      "purple": {
+        "color": "rgba(147,51,234,1)",
+        "backgroundColor": "rgba(243,232,255,1)"
+      },
+      "orange": {
+        "color": "rgba(234,88,12,1)",
+        "backgroundColor": "rgba(255,237,213,1)"
+      },
+      "red": {
+        "color": "rgba(220,38,38,1)",
+        "backgroundColor": "rgba(254,226,226,1)"
+      },
+      "gold": {
+        "color": "rgba(234,179,8,1)",
+        "backgroundColor": "rgba(254,252,232,1)"
+      },
+      "grey": {
+        "color": "rgba(75,85,99,1)",
+        "backgroundColor": "rgba(249,250,251,1)"
+      },
+      "indigo": {
+        "color": "rgba(79,70,229,1)",
+        "backgroundColor": "rgba(238,242,255,1)"
+      }
+    },
+
+    "linearGradientBackground": {
+      "indigoToPurple": {
+        "background": "linear-gradient(to right, #4f46e5, #9333ea)"
+      },
+      "indigoToPink": {
+        "background": "linear-gradient(to right, #4f46e5, #db2777)"
+      },
+      "greenToGreen": {
+        "background": "linear-gradient(to right, #16a34a, #059669)"
+      },
+      "purple50toPink50": {
+        "background": "linear-gradient(to right, #faf5ff, #fdf2f8)"
+      },
+      "indigo50toPurple50": {
+        "background": "linear-gradient(to right, #eef2ff, #faf5ff)"
+      },
+      "brIndigo50toPurple50": {
+        "background": "linear-gradient(to bottom right, #eef2ff, #faf5ff)"
+      },
+      "brIndigoToPurple": {
+        "background": "linear-gradient(to bottom right, #4f46e5, #9333ea)"
+      },
+      "brBlueToCyan": {
+        "background": "linear-gradient(to bottom right, #3b82f6, #0891b2)"
+      },
+      "brGreenToEmerald": {
+        "background": "linear-gradient(to bottom right, #22c55e, #059669)"
+      },
+      "brOrangeToRed": {
+        "background": "linear-gradient(to bottom right, #f97316, #dc2626)"
+      }
+    },
+
+    "shadows": {
+      "sm": "0px 1px 2px rgba(0,0,0,0.05)",
+      "md": "0px 4px 8px rgba(0,0,0,0.1)",
+      "lg": "0px 8px 16px rgba(0,0,0,0.12)"
+    },
+
+    "card": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)",
+      "textColor": "rgba(17,24,39,1)",
+      "subtitleTextColor": "rgba(55,65,81,1)"
+    },
+
+    "table": {
+      "headerBg": "rgba(249,250,251,1)",
+      "headerColor": "rgba(17,24,39,1)",
+      "rowBg": "rgba(255,255,255,1)",
+      "rowHoverBg": "rgba(249,250,251,1)",
+      "borderColor": "rgba(229,231,235,1)",
+      "textColor": "rgba(55,65,81,1)"
+    },
+
+    "button": {
+      "backgroundColor": "rgba(79,70,229,1)",
+      "textColor": "rgba(255,255,255,1)",
+      "hoverBackgroundColor": "rgba(67,56,202,1)",
+      "activeBackgroundColor": "rgba(55,48,163,1)",
+      "disabledBackgroundColor": "rgba(229,231,235,1)",
+      "disabledTextColor": "rgba(156,163,175,1)"
+    },
+
+    "input": {
+      "borderColor": "rgba(209,213,219,1)",
+      "focusBorderColor": "rgba(79,70,229,1)",
+      "placeholderColor": "rgba(156,163,175,1)",
+      "textColor": "rgba(17,24,39,1)",
+      "backgroundColor": "rgba(255,255,255,1)"
+    },
+
+    "inputSelect": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "hoverBg": "rgba(243,244,246,1)",
+      "textColor": "rgba(17,24,39,1)",
+      "borderColor": "rgba(229,231,235,1)"
+    },
+
+    "form": {
+      "labelColor": "rgba(55,65,81,0.7)",
+      "errorColor": "rgba(255,0,0,1)",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(0,0,0,0.15)",
+      "boxShadow": "0px 1px 4px rgba(0,0,0,0.05)",
+      "stroke": "rgba(0,0,0,0)",
+      "fill": "rgba(255,255,255,1)",
+      "errorMessageColor": "rgba(211,47,47,1)",
+      "errorMessageBackground": "rgba(255,235,238,1)"
+    },
+
+    "switch": {
+      "activeColor": "rgba(25,118,210,1)",
+      "inactiveColor": "rgba(0,0,0,0.3)",
+      "thumbColor": "rgba(255,255,255,1)",
+      "trackColor": "rgba(209,213,219,0.25)"
+    },
+
+    "chips": {
+      "backgroundColor": "rgba(227,242,253,1)",
+      "borderColor": "rgba(144,202,249,1)",
+      "fontColor": "rgba(25,118,210,1)",
+      "deleteIconColor": "rgba(25,118,210,1)",
+      "hoverBackgroundColor": "rgba(187,222,251,1)"
+    },
+
+    "multiselect": {
+      "selectedBackground": "rgba(227,242,253,1)",
+      "selectedColor": "rgba(25,118,210,1)",
+      "menuBackground": "rgba(255,255,255,1)",
+      "menuHoverBackground": "rgba(240,247,255,1)",
+      "menuFontColor": "rgba(0,0,0,1)"
+    },
+
+    "sidemenu": {
+      "backgroundColor": "rgba(15,23,42,1)",
+      "fontColor": "rgba(255,255,255,1)",
+      "hoverColor": "rgba(255,255,255,1)",
+      "activeColor": "rgba(187,222,251,1)",
+      "borderColor": "rgba(30,41,59,1)",
+      "iconColor": "rgba(255,255,255,1)",
+      "headerLabelFontColor": "rgba(148,163,184,1)",
+      "footerBorderColor": "rgba(55,65,81,1)",
+      "widgetBorderColor": "rgba(55,48,163,0.5)"
+    },
+
+    "header": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)"
+    },
+
+    "link": {
+      "color": "rgba(79,70,229,1)",
+      "hoverColor": "rgba(79,70,229,1)"
+    },
+
+    "alert": {
+      "toast": {
+        "background": "rgba(255,255,255,1)",
+        "textColor": "rgba(34,34,34,1)",
+        "shadow": "0px 4px 12px rgba(0,0,0,0.15)",
+        "borderRadius": "10px",
+        "successBorder": "rgba(62,189,147,1)",
+        "errorBorder": "rgba(255,77,77,1)"
+      },
+      "modern": {
+        "popupBackground": "rgba(255,255,255,1)",
+        "titleColor": "rgba(31,41,55,1)",
+        "messageColor": "rgba(60,60,60,1)",
+        "iconBackground": "rgba(255,244,236,1)",
+        "iconColor": "rgba(255,157,102,1)",
+        "buttonConfirmBg": "rgba(25,90,254,1)",
+        "buttonConfirmHover": "rgba(21,74,223,1)",
+        "buttonCancelBorder": "rgba(225,226,234,1)",
+        "buttonCancelText": "rgba(60,60,60,1)",
+        "shadow": "3px 4px 80px rgba(0,0,0,0.06)",
+        "borderRadius": "12px"
+      }
+    },
+
+    "selectionChip": {
+      "green": {
+        "borderColor": "rgba(134,239,172,1)",
+        "backgroundColor": "rgba(240,253,244,1)",
+        "color": "rgba(21,128,61,1)"
+      },
+
+      "yellow": {
+        "borderColor": "rgba(253,224,71,1)",
+        "backgroundColor": "rgba(254,252,232,1)",
+        "color": "rgba(161,98,7,1)"
+      },
+
+      "red": {
+        "borderColor": "rgba(252,165,165,1)",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "color": "rgba(55,65,81,1)"
+      },
+
+      "white": {
+        "borderColor": "rgba(229,231,235,1)",
+        "backgroundColor": "rgba(255,255,255,1)"
+      }
+    },
+
+    "ProgressTrackCard": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)"
+    }
+  },
+  "Dark": {}
+}

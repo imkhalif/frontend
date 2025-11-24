@@ -1,0 +1,417 @@
+{
+  "SuperAdmin": {
+    "pageIds": [
+      "SA_OVERVIEW",
+      "SA_UNIVERSITY",
+      "SA_B2CCUSTOMERS",
+      "SA_REVENUE",
+      "SA_SUPPORT",
+      "SA_SYSTEMHEALTH",
+      "SA_STUDENTS",
+      "SA_ANALYTICS",
+      "SA_SETTINGS"
+    ],
+    "overview": [
+      {
+        "id": "SA_OVERVIEW-PLATFORM_OVERVIEW",
+        "pageId": "SA_OVERVIEW"
+      },
+      {
+        "id": "SA_OVERVIEW-PLATFORM_GROWTH",
+        "pageId": "SA_OVERVIEW"
+      },
+      {
+        "id": "SA_OVERVIEW-DISTRIBUTION",
+        "pageId": "SA_OVERVIEW"
+      },
+      {
+        "id": "SA_OVERVIEW-RECENT_ACTIVITIES",
+        "pageId": "SA_OVERVIEW"
+      }
+    ],
+    "universities": [
+      {
+        "id": "SA_UNIVERSITIES-ADD",
+        "pageId": "SA_UNIVERSITY"
+      },
+      {
+        "id": "SA_UNIVERSITIES-TABLE",
+        "pageId": "SA_UNIVERSITY"
+      }
+    ],
+    "B2CCustomers": [
+      {
+        "id": "SA_B2CCUSTOMERS",
+        "pageId": "SA_B2CCUSTOMERS"
+      },
+      {
+        "id": "SA_B2CCUSTOMERS-PLAN_DISTRIBUTION",
+        "pageId": "SA_B2CCUSTOMERS"
+      },
+      {
+        "id": "SA_B2CCUSTOMERS-TOP_PERFORMERS",
+        "pageId": "SA_B2CCUSTOMERS"
+      },
+      {
+        "id": "SA_B2CCUSTOMERS-CUSTOMER_TABLE",
+        "pageId": "SA_B2CCUSTOMERS"
+      },
+      {
+        "id": "SA_B2CCUSTOMERS-CUSTOMER_TABLESEARCH",
+        "pageId": "SA_B2CCUSTOMERS"
+      }
+    ],
+    "Revenue": [
+      {
+        "id": "SA_REVENUE-FINANCE",
+        "pageId": "SA_REVENUE"
+      },
+      {
+        "id": "SA_REVENUE-MRR_MOVEMENT",
+        "pageId": "SA_REVENUE"
+      },
+      {
+        "id": "SA_REVENUE-REVENUE_BY_PLAN",
+        "pageId": "SA_REVENUE"
+      },
+      {
+        "id": "SA_REVENUE-UPCOMING_RENEWALS",
+        "pageId": "SA_REVENUE"
+      },
+      {
+        "id": "SA_REVENUE-RECENT_TRANSACTIONS",
+        "pageId": "SA_REVENUE"
+      }
+    ],
+    "Support": [
+      {
+        "id": "SA_SUPPORT",
+        "pageId": "SA_SUPPORT"
+      },
+      {
+        "id": "SA_SUPPORT-TICKETS",
+        "pageId": "SA_SUPPORT"
+      }
+    ],
+    "SystemHealth": [
+      {
+        "id": "SA_SYSTEMHEALTH",
+        "pageId": "SA_SYSTEMHEALTH"
+      },
+      {
+        "id": "SA_SYSTEMHEALTH-INFRASTRUCTURE_METRICS",
+        "pageId": "SA_SYSTEMHEALTH"
+      },
+      {
+        "id": "SA_SYSTEMHEALTH-PERFORMANCE_METRICS",
+        "pageId": "SA_SYSTEMHEALTH"
+      }
+    ],
+    "Students": [
+      {
+        "id": "SA_STUDENTS-ANALYTICS",
+        "pageId": "SA_STUDENTS"
+      },
+      {
+        "id": "SA_STUDENTS-STUDENT_DISTRIBUTION_BYBRANCH",
+        "pageId": "SA_STUDENTS"
+      },
+      {
+        "id": "SA_STUDENTS-READINESSS_CORE_DISTRIBUTION",
+        "pageId": "SA_STUDENTS"
+      },
+      {
+        "id": "SA_STUDENTS-TOP_PERFORMING_STUDENTS",
+        "pageId": "SA_STUDENTS"
+      },
+      {
+        "id": "SA_STUDENTS-ATRISK_STUDENTS",
+        "pageId": "SA_STUDENTS"
+      }
+    ],
+    "Analytics": [
+      {
+        "id": "SA_ANALYTICS-ADVANCED_ANALYTICS",
+        "pageId": "SA_ANALYTICS"
+      },
+      {
+        "id": "SA_ANALYTICS-REVENUE&USER_GROWTH",
+        "pageId": "SA_ANALYTICS"
+      },
+      {
+        "id": "SA_ANALYTICS-CONVERSION_FUNNEL",
+        "pageId": "SA_ANALYTICS"
+      },
+      {
+        "id": "SA_ANALYTICS-COHORTRETENTION_ANALYSIS",
+        "pageId": "SA_ANALYTICS"
+      },
+      {
+        "id": "SA_ANALYTICS-TOP_PERFORMANCE_DRIVERS",
+        "pageId": "SA_ANALYTICS"
+      },
+      {
+        "id": "SA_ANALYTICS-PREDICTIVE_INSIGHTS",
+        "pageId": "SA_ANALYTICS"
+      }
+    ]
+  },
+
+  "Admin": {
+    "pageIds": [
+      "ADMIN_DASHBOARD",
+      "ADMIN_PLACEMENT",
+      "ADMIN_STUDENTS",
+      "ADMIN_COMPANIES",
+      "ADMIN_COMMUNICATIONS",
+      "ADMIN_ANALYTICS",
+      "ADMIN_RESOURCES",
+      "ADMIN_SETTINGS"
+    ],
+    "dashboard": [
+      {
+        "id": "ADMIN_DASHBOARD-PLACEMENT_FUNNEL",
+        "pageId": "ADMIN_DASHBOARD"
+      },
+      {
+        "id": "ADMIN_DASHBOARD-ADD_PLACEMENT",
+        "pageId": "ADMIN_DASHBOARD"
+      },
+      {
+        "id": "ADMIN_DASHBOARD-ADD_COMPANY",
+        "pageId": "ADMIN_DASHBOARD"
+      },
+      {
+        "id": "ADMIN_DASHBOARD-SEND_CAMPAIGN",
+        "pageId": "ADMIN_DASHBOARD"
+      },
+      {
+        "id": "ADMIN_DASHBOARD-VIEW_REPORTS",
+        "pageId": "ADMIN_DASHBOARD"
+      },
+      {
+        "id": "ADMIN_DASHBOARD-RECENT_PLACEMENT",
+        "pageId": "ADMIN_DASHBOARD"
+      },
+      {
+        "id": "ADMIN_DASHBOARD-TOP_PERFORMING_STUDENTS",
+        "pageId": "ADMIN_DASHBOARD"
+      }
+    ],
+    "PlacementDrives": [
+      {
+        "id": "ADMIN_PLACEMENTDRIVES-ADD_NEW_DRIVE",
+        "pageId": "ADMIN_PLACEMENTDRIVES"
+      },
+      {
+        "id": "ADMIN_PLACEMENTDRIVES-SEARCHBAR",
+        "pageId": "ADMIN_PLACEMENTDRIVES"
+      },
+      {
+        "id": "ADMIN_PLACEMENTDRIVES-LIST",
+        "pageId": "ADMIN_PLACEMENTDRIVES"
+      }
+    ],
+    "Students": [
+      {
+        "id": "ADMIN_STUDENTS-SEARCHBAR",
+        "pageId": "ADMIN_STUDENTS"
+      },
+      {
+        "id": "ADMIN_STUDENTS-TABLE",
+        "pageId": "ADMIN_STUDENTS"
+      }
+    ],
+    "Companies": [
+      {
+        "id": "ADMIN_COMPANIES-ADD_NEW_COMPANY",
+        "pageId": "ADMIN_COMPANIES"
+      },
+      {
+        "id": "ADMIN_COMPANIES-SEARCHBAR",
+        "pageId": "ADMIN_COMPANIES"
+      },
+      {
+        "id": "ADMIN_COMPANIES-TABLE",
+        "pageId": "ADMIN_COMPANIES"
+      }
+    ],
+    "Communications": [
+      {
+        "id": "ADMIN_COMMUNICATIONS-NEW_CAMPAIGN",
+        "pageId": "ADMIN_COMMUNICATIONS"
+      },
+      {
+        "id": "ADMIN_COMMUNICATIONS-TEMPLATE_LIBRARY",
+        "pageId": "ADMIN_COMMUNICATIONS"
+      },
+      {
+        "id": "ADMIN_COMMUNICATIONS-EMAIL_CAMPAIGNS",
+        "pageId": "ADMIN_COMMUNICATIONS"
+      },
+      {
+        "id": "ADMIN_COMMUNICATIONS-SEND_SMS",
+        "pageId": "ADMIN_COMMUNICATIONS"
+      },
+      {
+        "id": "ADMIN_COMMUNICATIONS-PUSH_NOTIFICATION",
+        "pageId": "ADMIN_COMMUNICATIONS"
+      },
+      {
+        "id": "ADMIN_COMMUNICATIONS-RECENT_CAMPAIGNS",
+        "pageId": "ADMIN_COMMUNICATIONS"
+      }
+    ],
+    "Analytics": [
+      {
+        "id": "ADMIN_ANALYTICS-TABBAR",
+        "pageId": "ADMIN_ANALYTICS"
+      },
+      {
+        "id": "ADMIN_ANALYTICS-TIMERANGE",
+        "pageId": "ADMIN_ANALYTICS"
+      },
+      {
+        "id": "ADMIN_ANALYTICS-OVERVIEW",
+        "pageId": "ADMIN_ANALYTICS"
+      },
+      {
+        "id": "ADMIN_ANALYTICS-ACTIVE_STUDENTS",
+        "pageId": "ADMIN_ANALYTICS"
+      },
+      {
+        "id": "ADMIN_ANALYTICS-STUDENT_READINESS_DISTRIBUTION",
+        "pageId": "ADMIN_ANALYTICS"
+      }
+    ]
+  },
+
+  "Student": {
+    "pageIds": [
+      "STUDENT_DASHBOARD",
+      "STUDENT_CAMPUS_PLACEMENT",
+      "STUDENT_RESUME_BUILDER",
+      "STUDENT_INTERVIEW_COACHING",
+      "STUDENT_MOCK_INTERVIEWS",
+      "STUDENT_PROGRESS_TRACKER",
+      "STUDENT_RESOURCES",
+      "STUDENT_SETTINGS"
+    ],
+    "dashboard": [
+      {
+        "id": "STUDENT_DASHBOARD-PLACEMENT_JOURNEY",
+        "pageId": "STUDENT_DASHBOARD"
+      },
+      {
+        "id": "STUDENT_DASHBOARD-PLACEMENT_JOURNEY_WIDGETs",
+        "pageId": "STUDENT_DASHBOARD"
+      },
+      {
+        "id": "STUDENT_DASHBOARD-RECENT_ACTIVITIES",
+        "pageId": "STUDENT_DASHBOARD"
+      },
+      {
+        "id": "STUDENT_DASHBOARD-UPCOMING_DEADLINES",
+        "pageId": "STUDENT_DASHBOARD"
+      },
+      {
+        "id": "STUDENT_DASHBOARD-BROWSE_PLACEMENTS",
+        "pageId": "STUDENT_DASHBOARD"
+      },
+      {
+        "id": "STUDENT_DASHBOARD-START_MOCK_INTERVIEW",
+        "pageId": "STUDENT_DASHBOARD"
+      },
+      {
+        "id": "STUDENT_DASHBOARD-CONTINUE_COACHING",
+        "pageId": "STUDENT_DASHBOARD"
+      },
+      {
+        "id": "STUDENT_DASHBOARD-HOT_OPPORTUNITIES",
+        "pageId": "STUDENT_DASHBOARD"
+      }
+    ],
+    "CampusPlacemt": [
+      {
+        "id": "STUDENT_CAMPUS_PLACEMENTS-FILTERBAR",
+        "pageId": "STUDENT_CAMPUS_PLACEMENTS"
+      },
+      {
+        "id": "STUDENT_CAMPUS_PLACEMENTS-ADD_EXTERNAL_PLACEMENT",
+        "pageId": "STUDENT_CAMPUS_PLACEMENTS"
+      },
+      {
+        "id": "STUDENT_CAMPUS_PLACEMENTS-LIST",
+        "pageId": "STUDENT_CAMPUS_PLACEMENTS"
+      }
+    ],
+    "ResumeBuilder": [
+      {
+        "id": "STUDENT_RESUME_BUILDER-BASERESUME",
+        "pageId": "STUDENT_RESUME_BUILDER"
+      },
+      {
+        "id": "STUDENT_RESUME_BUILDER-PLACEMENT_SPECIFIC_VERSIONS",
+        "pageId": "STUDENT_RESUME_BUILDER"
+      },
+      {
+        "id": "STUDENT_RESUME_BUILDER-CREATE_RESUME_FOR_ANOTHER_PLACEMENT",
+        "pageId": "STUDENT_RESUME_BUILDER"
+      }
+    ],
+    "InterviewCoaching": [
+      {
+        "id": "STUDENT_INTERVIEW_COACHING-CHOOSE_COMPANY",
+        "pageId": "STUDENT_INTERVIEW_COACHING"
+      },
+      {
+        "id": "STUDENT_INTERVIEW_COACHING-COMPANY_LIST",
+        "pageId": "STUDENT_INTERVIEW_COACHING"
+      },
+      {
+        "id": "STUDENT_INTERVIEW_COACHING-INTERVIEW_SKILLS",
+        "pageId": "STUDENT_INTERVIEW_COACHING"
+      }
+    ],
+    "MockInterviews": [
+      {
+        "id": "STUDENT_MOCK_INTERVIEWS-VIDEO_INTERVIEW",
+        "pageId": "STUDENT_MOCK_INTERVIEWS"
+      },
+      {
+        "id": "STUDENT_MOCK_INTERVIEWS-VOICE_ONLY",
+        "pageId": "STUDENT_MOCK_INTERVIEWS"
+      },
+      {
+        "id": "STUDENT_MOCK_INTERVIEWS-TEXT_BASED",
+        "pageId": "STUDENT_MOCK_INTERVIEWS"
+      },
+      {
+        "id": "STUDENT_MOCK_INTERVIEWS-INTERVIEW_SETTINGS",
+        "pageId": "STUDENT_MOCK_INTERVIEWS"
+      },
+      {
+        "id": "STUDENT_MOCK_INTERVIEWS-START_INTERVIEW_BADGE",
+        "pageId": "STUDENT_MOCK_INTERVIEWS"
+      },
+      {
+        "id": "STUDENT_MOCK_INTERVIEWS-PREVIOUS_MOCK_INTERVIEWS",
+        "pageId": "STUDENT_MOCK_INTERVIEWS"
+      }
+    ],
+    "ProgressTracker": [
+      {
+        "id": "STUDENT_PROGRESS_TRACKER-SUMMARY_BADGE",
+        "pageId": "STUDENT_PROGRESS_TRACKER"
+      },
+      {
+        "id": "STUDENT_PROGRESS_TRACKER-PROGRESS_BY_COMPANY",
+        "pageId": "STUDENT_PROGRESS_TRACKER"
+      },
+      {
+        "id": "STUDENT_PROGRESS_TRACKER-ACHIEVEMENTS",
+        "pageId": "STUDENT_PROGRESS_TRACKER"
+      }
+    ]
+  }
+}

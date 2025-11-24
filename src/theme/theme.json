@@ -1,0 +1,1149 @@
+{
+  "Default": {
+    "typography": {
+      "hOne": {
+        "fontSize": "1.875rem",
+        "lineHeight": "2.25rem",
+        "fontWeight": 700,
+        "marginBottom": "0.5rem"
+      },
+      "hTwo": {
+        "fontSize": "1.5rem",
+        "lineHeight": "2rem",
+        "fontWeight": 700
+      },
+      "hThree": {
+        "fontSize": "1.25rem",
+        "lineHeight": "1.75rem",
+        "fontWeight": 600
+      },
+      "hFour": {
+        "fontSize": "1rem",
+        "lineHeight": "1.5rem",
+        "fontWeight": 600
+      },
+      "subtitle": {
+        "fontSize": "1rem",
+        "lineHeight": "1.5rem",
+        "fontWeight": 500
+      },
+      "body": {
+        "fontSize": "1rem",
+        "lineHeight": "1.5rem",
+        "fontWeight": 400
+      },
+      "label": {
+        "fontSize": ".875rem",
+        "lineHeight": "1.25rem",
+        "fontWeight": 400
+      },
+      "labelSmall": {
+        "fontSize": ".75rem",
+        "lineHeight": "1rem",
+        "fontWeight": 400
+      },
+      "buttonText": {
+        "fontSize": ".875rem",
+        "lineHeight": "1.25rem",
+        "fontWeight": 600
+      }
+    },
+
+    "cards": {
+      "padding": "1.5rem",
+      "heading": {
+        "marginBottom": "1.5rem"
+      },
+      "statCardCta": {
+        "borderWidth": "2px"
+      },
+      "widgetCard": {}
+    },
+
+    "notificationIcon": {
+      "width": "36px",
+      "height": "36px",
+      "iconWidth": "20px",
+      "iconHeight": "20px",
+      "dotWidth": "8px",
+      "dotHeight": "8px",
+      "borderRadius": "0.5rem",
+      "padding": "0.5rem"
+    },
+
+    "userIcon": {
+      "width": "32px",
+      "height": "32px",
+      "fontSize": ".875rem",
+      "lineHeight": "1.25rem",
+      "fontWeight": 600
+    },
+
+    "userMenuFlyout": {
+      "borderWidth": "1px",
+      "borderRadius": "0.75rem",
+      "width": "18rem",
+      "height": "150px",
+      "zIndex": 999,
+
+      "userMenuFlyoutHeader": {
+        "width": "100%",
+        "minHeight": "100px",
+        "padding": "1rem",
+
+        "headerIcon": {
+          "borderRadius": "9999px",
+          "width": "3rem",
+          "height": "3rem",
+          "fontSize": "1.125rem",
+          "lineHeight": "1.75rem",
+          "fontWeight": 700,
+          "display": "flex",
+          "justifyContent": "center",
+          "alignItems": "center"
+        },
+
+        "headerName": {
+          "fontSize": "1rem",
+          "fontWeight": 600,
+          "lineHeight": "1.5rem"
+        },
+
+        "label": {
+          "fontSize": "0.875rem",
+          "lineHeight": "1.25rem"
+        },
+
+        "chip": {
+          "padding": "0.5rem",
+          "borderRadius": "0.5rem",
+
+          "H3": {
+            "fontSize": "1.25rem",
+            "lineHeight": "1.75rem",
+            "fontWeight": 600
+          },
+          "labelSmall": {
+            "fontSize": "0.75rem",
+            "lineHeight": "1rem"
+          }
+        }
+      },
+
+      "userMenuFlyoutBody": {
+        "paddingVertical": "0.5rem"
+      },
+
+      "userMenuFlyoutDivider": {
+        "borderWidth": "1px",
+        "marginVertical": "0.5rem"
+      }
+    },
+
+    "page": {
+      "heading": {
+        "marginBottom": "2rem"
+      }
+    },
+
+    "button": {
+      "borderWidth": "0px",
+      "borderRadius": "0.5rem",
+      "fontSize": "1rem",
+      "fontWeight": 600,
+      "paddingHorizontal": "1.5rem",
+      "paddingVertical": "0.5rem",
+      "display": "flex",
+      "alignItems": "center",
+      "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke",
+      "transitionTimingFunction": "cubic-bezier(.4, 0, .2, 1)",
+      "transitionDuration": ".15s",
+      "small": {
+        "borderWidth": "1px",
+        "paddingHorizontal": "1rem",
+        "paddingVertical": "0.5rem",
+        "fontSize": "0.875rem",
+        "lineHeight": "1.25rem",
+        "fontWeight": 500
+      }
+    },
+
+    "input": {
+      "fontSize": "1rem",
+      "fontWeight": 400,
+      "height": "42px",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderRadius": "0.5rem",
+      "paddingVertical": "0.5rem",
+      "paddingHorizontal": "1rem"
+    },
+
+    "inputWithIcon": {
+      "paddingRight": "2.5rem"
+    },
+
+    "inputSelect": {
+      "borderWidth": "1px",
+      "borderRadius": "0.5rem",
+      "fontSize": "0.875rem",
+      "lineHeight": "1.25rem",
+      "fontWeight": 400,
+      "paddingTop": "0.5rem",
+      "paddingBottom": "0.5rem"
+    },
+
+    "dropdown": {
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderRadius": "6px",
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "boxShadow": "0px 2px 6px rgba(0,0,0,0.1)",
+      "stroke": "rgba(0,0,0,0)",
+      "strokeWidth": "0px",
+      "strokeType": "none"
+    },
+
+    "dropdownMultiSelect": {
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderRadius": "6px",
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "boxShadow": "0px 2px 6px rgba(0,0,0,0.1)",
+      "strokeWidth": "0px",
+      "strokeType": "none"
+    },
+
+    "form": {
+      "labelColor": "rgba(55,65,81,0.7)",
+      "errorColor": "rgba(255,0,0,1)",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "fontFamily": "Roboto, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "borderColor": "rgba(0,0,0,0.15)",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderRadius": "6px",
+      "boxShadow": "0px 1px 4px rgba(0,0,0,0.05)",
+      "stroke": "rgba(0,0,0,0)",
+      "strokeWidth": "0px",
+      "strokeType": "none",
+      "fill": "rgba(255,255,255,1)",
+      "errorMessageColor": "rgba(211,47,47,1)",
+      "errorMessageFontSize": "12px",
+      "errorMessageBackground": "rgba(255,235,238,1)"
+    },
+
+    "switch": {
+      "activeColor": "rgba(25,118,210,1)",
+      "inactiveColor": "rgba(0,0,0,0.3)",
+      "thumbColor": "rgba(255,255,255,1)",
+      "trackColor": "rgba(209,213,219,0.25)"
+    },
+
+    "chips": {
+      "backgroundColor": "rgba(227,242,253,1)",
+      "borderColor": "rgba(144,202,249,1)",
+      "borderRadius": "16px",
+      "fontColor": "rgba(25,118,210,1)",
+      "deleteIconColor": "rgba(25,118,210,1)",
+      "hoverBackgroundColor": "rgba(187,222,251,1)"
+    },
+
+    "multiselect": {
+      "selectedBackground": "rgba(227,242,253,1)",
+      "selectedColor": "rgba(25,118,210,1)",
+      "menuBackground": "rgba(255,255,255,1)",
+      "menuHoverBackground": "rgba(240,247,255,1)",
+      "menuFontColor": "rgba(0,0,0,1)"
+    },
+
+    "sidemenu": {
+      "backgroundColor": "rgba(15,23,42,1)",
+      "fontColor": "rgba(255,255,255,1)",
+      "hoverColor": "rgba(255,255,255,1)",
+      "activeColor": "rgba(187,222,251,1)",
+      "borderColor": "rgba(30,41,59,1)",
+      "borderWidth": "1px",
+      "iconColor": "rgba(255,255,255,1)",
+      "iconSize": "20px",
+      "widthExpanded": "256px",
+      "widthCollapsed": "70px",
+      "fontFamily": "Roboto, sans-serif",
+      "fontSize": "1rem",
+      "lineHeight": "1.5rem",
+
+      "menuItems": {
+        "paddingVertical": ".75rem",
+        "paddingHorizontal": "1rem"
+      },
+
+      "header": {
+        "fontSize": "1.25rem",
+        "lineHeight": "1.75rem",
+        "fontWeight": 700,
+        "marginBottom": "0.25rem",
+        "labelFontColor": "rgba(148,163,184,1)",
+        "labelFontSize": ".875rem",
+        "labelFontWeight": 400,
+        "labelLineHeight": "1.25rem"
+      },
+
+      "footer": {
+        "borderColor": "rgba(55,65,81,1)",
+        "borderTopWidth": "1px",
+        "padding": "1rem",
+        "marginBottom": "0.25rem",
+
+        "widget": {
+          "borderColor": "rgba(55,48,163,0.5)",
+          "borderWidth": "1px",
+          "borderRadius": ".5rem"
+        }
+      }
+    },
+
+    "header": {
+      "paddingVertical": "1rem",
+      "paddingHorizontal": "2rem",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)",
+      "borderWidth": "1px"
+    },
+
+    "link": {
+      "color": "rgba(79,70,229,1)",
+      "hoverColor": "rgba(79,70,229,1)",
+      "fontSize": "14px",
+      "fontWeight": 500,
+      "textDecoration": "none",
+      "hoverTextDecoration": "underline"
+    },
+
+    "alert": {
+      "toast": {
+        "background": "rgba(255,255,255,1)",
+        "textColor": "rgba(34,34,34,1)",
+        "shadow": "0px 4px 12px rgba(0,0,0,0.15)",
+        "borderRadius": "10px",
+        "successBorder": "rgba(62,189,147,1)",
+        "errorBorder": "rgba(255,77,77,1)"
+      },
+      "modern": {
+        "popupBackground": "rgba(255,255,255,1)",
+        "titleColor": "rgba(31,41,55,1)",
+        "messageColor": "rgba(60,60,60,1)",
+        "iconBackground": "rgba(255,244,236,1)",
+        "iconColor": "rgba(255,157,102,1)",
+        "buttonConfirmBg": "rgba(25,90,254,1)",
+        "buttonConfirmHover": "rgba(21,74,223,1)",
+        "buttonCancelBorder": "rgba(225,226,234,1)",
+        "buttonCancelText": "rgba(60,60,60,1)",
+        "shadow": "3px 4px 80px rgba(0,0,0,0.06)",
+        "borderRadius": "12px"
+      }
+    },
+
+    "iconWithBgColor": {
+      "borderRadius": "0.5rem",
+      "width": "3rem",
+      "height": "3rem",
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "center"
+    },
+
+    "iconWithBgColorBig": {
+      "borderRadius": "0.75rem",
+      "width": "4rem",
+      "height": "4rem",
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "center"
+    },
+
+    "selectionChip": {
+      "borderWidth": "2px",
+      "borderRadius": "0.5rem",
+      "paddingHorizontal": "1rem",
+      "paddingVertical": "0.75rem",
+
+      "green": {
+        "borderColor": "rgba(134,239,172,1)",
+        "backgroundColor": "rgba(240,253,244,1)",
+        "color": "rgba(21,128,61,1)",
+        "fontSize": "1rem",
+        "lineHeight": "1.5rem",
+        "fontWeight": 500
+      },
+
+      "yellow": {
+        "borderColor": "rgba(253,224,71,1)",
+        "backgroundColor": "rgba(254,252,232,1)",
+        "color": "rgba(161,98,7,1)",
+        "fontSize": "1rem",
+        "lineHeight": "1.5rem",
+        "fontWeight": 500
+      },
+
+      "red": {
+        "borderColor": "rgba(252,165,165,1)",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "color": "rgba(55,65,81,1)",
+        "fontSize": "1rem",
+        "lineHeight": "1.5rem",
+        "fontWeight": 500
+      },
+
+      "white": {
+        "borderColor": "rgba(229,231,235,1)",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "padding": "1rem",
+        "hoverBorderColor": "rgba(209,213,219,1)",
+        "activeBorderColor": "rgba(99,102,241,1)"
+      }
+    },
+
+    "gradientBadge": {
+      "padding": "2rem"
+    },
+
+    "ProgressTrackCard": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)",
+      "borderWidth": "1px",
+      "borderRadius": "0.75rem",
+      "padding": "1.5rem"
+    },
+
+    "stackBar": {
+      "borderRadius": "0.5rem",
+      "big": {
+        "padding": "1rem"
+      },
+      "small": {
+        "padding": ".75rem"
+      }
+    },
+
+    "categoryListItem": {},
+    "activityList": {},
+    "progressMetric": {},
+    "RangeBreakdownBar": {},
+    "searchFilter": {},
+    "table": {},
+    "UserRankItem": {},
+    "MetricsSummaryRow": {},
+    "FancyWidget": {},
+    "DualMetricBarChart": {},
+    "ProgressCircle": {},
+    "ProgressStackCard": {},
+    "tabSetting": {},
+    "modal": {}
+  },
+
+  "Light": {
+    "colors": {
+      "primaryColor": "rgba(79,70,229,1)",
+      "blue": "rgba(37,99,235,1)",
+      "blueLight": "rgba(219,234,254,1)",
+      "green": "rgba(22,163,74,1)",
+      "greenLight": "rgba(220,252,231,1)",
+      "purple": "rgba(147,51,234,1)",
+      "purpleLight": "rgba(243,232,255,1)",
+      "orange": "rgba(234,88,12,1)",
+      "orangeLight": "rgba(255,237,213,1)",
+      "red": "rgba(220,38,38,1)",
+      "redLight": "rgba(254,226,226,1)",
+      "gold": "rgba(234,179,8,1)",
+      "goldLight": "rgba(254,252,232,1)",
+      "goldBrown": "rgba(161,98,7,1)",
+      "indigo": "rgba(79,70,229,1)",
+      "indigoBorder": "rgba(199,210,254,1)",
+      "greenBorder": "rgba(134,239,172,1)",
+      "yellowBorder": "rgba(253,224,71,1)",
+      "redBorder": "rgba(252,165,165,1)",
+      "linkColor": "rgba(79,70,229,1)",
+      "buttonColor": "rgba(79,70,229,1)",
+      "headingColor": "rgba(31,41,55,1)",
+      "fontColor": "rgba(31,41,55,1)",
+      "labelColor": "rgba(75,85,99,1)",
+      "progressBarBg": "rgba(229,231,235,1)",
+      "stackListTwoColBgGray": "rgba(249,250,251,1)",
+      "stackListThreeColBgGray": "rgba(239,246,255,1)",
+      "tableRowHoverBgGray": "rgba(249,250,251,1)",
+      "tableRowHoverBorderGray": "rgba(243,244,246,1)",
+      "softGreen": "rgba(240,253,244,1)",
+      "softBlue": "rgba(239,246,255,1)",
+      "softBeige": "rgba(255,247,237,1)"
+    },
+
+    "colorCombos": {
+      "blue": {
+        "color": "rgba(37,99,235,1)",
+        "backgroundColor": "rgba(219,234,254,1)"
+      },
+      "green": {
+        "color": "rgba(22,163,74,1)",
+        "backgroundColor": "rgba(220,252,231,1)"
+      },
+      "purple": {
+        "color": "rgba(147,51,234,1)",
+        "backgroundColor": "rgba(243,232,255,1)"
+      },
+      "orange": {
+        "color": "rgba(234,88,12,1)",
+        "backgroundColor": "rgba(255,237,213,1)"
+      },
+      "red": {
+        "color": "rgba(220,38,38,1)",
+        "backgroundColor": "rgba(254,226,226,1)"
+      },
+      "gold": {
+        "color": "rgba(234,179,8,1)",
+        "backgroundColor": "rgba(254,252,232,1)"
+      },
+      "grey": {
+        "color": "rgba(75,85,99,1)",
+        "backgroundColor": "rgba(249,250,251,1)"
+      },
+      "indigo": {
+        "color": "rgba(79,70,229,1)",
+        "backgroundColor": "rgba(238,242,255,1)"
+      }
+    },
+
+    "linearGradients": {
+      "indigoToPurple": {
+        "background": "linear-gradient(to right, #4f46e5, #9333ea)"
+      },
+      "indigoToPink": {
+        "background": "linear-gradient(to right, #4f46e5, #db2777)"
+      },
+      "greenToGreen": {
+        "background": "linear-gradient(to right, #16a34a, #059669)"
+      },
+      "purple50toPink50": {
+        "background": "linear-gradient(to right, #faf5ff, #fdf2f8)"
+      },
+      "indigo50toPurple50": {
+        "background": "linear-gradient(to right, #eef2ff, #faf5ff)"
+      },
+      "brIndigo50toPurple50": {
+        "background": "linear-gradient(to bottom right, #eef2ff, #faf5ff)"
+      },
+      "brIndigoToPurple": {
+        "background": "linear-gradient(to bottom right, #ff7e5f, #feb47b)"
+      },
+      "brCyanToBlue": {
+        "background": "linear-gradient(to bottom right, #3b82f6, #0891b2)"
+      },
+      "brGreenToEmerald": {
+        "background": "linear-gradient(to bottom right, #22c55e, #059669)"
+      },
+      "brOrangeToRed": {
+        "background": "linear-gradient(to bottom right, #f97316, #dc2626)"
+      }
+    },
+
+    "typography": {
+      "hOne": {
+        "color": "rgba(31,41,55,1)"
+      },
+      "hTwo": {
+        "color": "rgba(31,41,55,1)"
+      },
+      "hThree": {
+        "color": "rgba(31,41,55,1)"
+      },
+      "textBold": {
+        "color": "rgba(31,41,55,1)"
+      },
+      "textLabelRegular": {
+        "color": "rgba(75,85,99,1)"
+      },
+      "textLabelSm": {
+        "color": "rgba(75,85,99,1)"
+      },
+      "textLabelXs": {
+        "color": "rgba(75,85,99,1)"
+      }
+    },
+
+    "cards": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "statCardCta": {
+        "borderColor": "rgba(229,231,235,1)"
+      }
+    },
+
+    "notificationIcon": {
+      "dotColor": "rgba(239,68,68,1)",
+      "hoverBackgroundColor": "rgba(243,244,246,1)"
+    },
+
+    "userIcon": {
+      "fontColor": "rgba(255,255,255,1)"
+    },
+
+    "userMenuFlyout": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)",
+      "userMenuFlyoutHeader": {
+        "background": "linear-gradient(to right, #4f46e5, #9333ea)",
+        "color": "rgba(255,255,255,1)",
+        "headerIcon": {
+          "backgroundColor": "rgba(255,255,255,0.2)"
+        },
+        "label": {
+          "color": "rgba(224,231,255,1)"
+        },
+
+        "chip": {
+          "backgroundColor": "rgba(255,255,255,0.1)",
+
+          "H3": {
+            "color": "rgba(31,41,55,1)"
+          },
+          "labelSmall": {
+            "color": "rgba(224,231,255,1)"
+          }
+        }
+      },
+      "userMenuFlyoutDivider": {
+        "borderColor": "rgba(243,244,246,1)"
+      }
+    },
+
+    "page": {
+      "fontColor": "rgba(31,41,55,1)",
+      "backgroundColor": "rgba(229,231,235,1)",
+      "borderColor": "rgba(229,231,235,1)"
+    },
+
+    "button": {
+      "fontColor": "rgba(255,255,255,1)",
+      "backgroundColor": "rgba(79,70,229,1)",
+      "hoverBackgroundColor": "rgba(17,82,147,1)",
+      "activeBackgroundColor": "rgba(13,60,122,1)",
+      "disabledBackgroundColor": "rgba(0,0,0,0.12)",
+      "small": {
+        "backgroundColor": "rgba(255,255,255,1)",
+        "borderColor": "rgba(209,213,219,1)",
+        "fontColor": "rgba(31,41,55,1)",
+        "hoverBgColor": "rgba(249,250,251,1)"
+      }
+    },
+
+    "input": {
+      "fontColor": "rgba(31,41,55,1)",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "placeholderColor": "rgba(0,0,0,0.4)",
+      "borderColor": "rgba(209,213,219,1)",
+      "focusBorderColor": "rgba(209,213,238,1)"
+    },
+
+    "inputSelect": {
+      "fontColor": "rgba(31,41,55,1)",
+      "borderColor": "rgba(209,213,219,0.2)"
+    },
+
+    "dropdown": {
+      "fontColor": "rgba(0,0,0,0.87)",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "hoverBackgroundColor": "rgba(0,0,0,0.05)",
+      "borderColor": "rgba(209,213,219,0.2)",
+      "boxShadow": "0px 2px 6px rgba(0,0,0,0.1)",
+      "stroke": "rgba(0,0,0,0)",
+      "fill": "rgba(255,255,255,1)",
+      "selectedBackground": "rgba(227,242,253,1)",
+      "selectedFontColor": "rgba(25,118,210,1)",
+      "chipBackground": "rgba(227,242,253,1)",
+      "chipColor": "rgba(25,118,210,1)"
+    },
+
+    "dropdownMultiSelect": {
+      "fontColor": "rgba(0,0,0,0.87)",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "hoverBackgroundColor": "rgba(0,0,0,0.05)",
+      "borderColor": "rgba(0,0,0,0.2)",
+      "fill": "rgba(255,255,255,1)",
+      "selectedBackground": "rgba(227,242,253,1)",
+      "selectedFontColor": "rgba(25,118,210,1)",
+      "chipBackground": "rgba(227,242,253,1)",
+      "chipColor": "rgba(25,118,210,1)"
+    },
+
+    "form": {
+      "labelColor": "rgba(55,65,81,0.7)",
+      "errorColor": "rgba(255,0,0,1)",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(0,0,0,0.15)",
+      "boxShadow": "0px 1px 4px rgba(0,0,0,0.05)",
+      "stroke": "rgba(0,0,0,0)",
+      "fill": "rgba(255,255,255,1)",
+      "errorMessageColor": "rgba(211,47,47,1)",
+      "errorMessageBackground": "rgba(255,235,238,1)"
+    },
+
+    "switch": {
+      "activeColor": "rgba(25,118,210,1)",
+      "inactiveColor": "rgba(0,0,0,0.3)",
+      "thumbColor": "rgba(255,255,255,1)",
+      "trackColor": "rgba(209,213,219,0.25)"
+    },
+
+    "chips": {
+      "backgroundColor": "rgba(227,242,253,1)",
+      "borderColor": "rgba(144,202,249,1)",
+      "fontColor": "rgba(25,118,210,1)",
+      "deleteIconColor": "rgba(25,118,210,1)",
+      "hoverBackgroundColor": "rgba(187,222,251,1)"
+    },
+
+    "multiselect": {
+      "selectedBackground": "rgba(227,242,253,1)",
+      "selectedColor": "rgba(25,118,210,1)",
+      "menuBackground": "rgba(255,255,255,1)",
+      "menuHoverBackground": "rgba(240,247,255,1)",
+      "menuFontColor": "rgba(0,0,0,1)"
+    },
+
+    "sidemenu": {
+      "backgroundColor": "rgba(15,23,42,1)",
+      "fontColor": "rgba(255,255,255,1)",
+      "hoverColor": "rgba(255,255,255,1)",
+      "activeColor": "rgba(187,222,251,1)",
+      "borderColor": "rgba(30,41,59,1)",
+      "iconColor": "rgba(255,255,255,1)",
+      "header": {
+        "labelFontColor": "rgba(148,163,184,1)"
+      },
+
+      "footer": {
+        "borderColor": "rgba(55,65,81,1)",
+        "widget": {
+          "borderColor": "rgba(55,48,163,0.5)"
+        }
+      }
+    },
+
+    "header": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)"
+    },
+
+    "link": {
+      "color": "rgba(79,70,229,1)",
+      "hoverColor": "rgba(79,70,229,1)"
+    },
+
+    "alert": {
+      "toast": {
+        "background": "rgba(255,255,255,1)",
+        "textColor": "rgba(34,34,34,1)",
+        "shadow": "0px 4px 12px rgba(0,0,0,0.15)",
+        "successBorder": "rgba(62,189,147,1)",
+        "errorBorder": "rgba(255,77,77,1)"
+      },
+      "modern": {
+        "popupBackground": "rgba(255,255,255,1)",
+        "titleColor": "rgba(31,41,55,1)",
+        "messageColor": "rgba(60,60,60,1)",
+        "iconBackground": "rgba(255,244,236,1)",
+        "iconColor": "rgba(255,157,102,1)",
+        "buttonConfirmBg": "rgba(25,90,254,1)",
+        "buttonConfirmHover": "rgba(21,74,223,1)",
+        "buttonCancelBorder": "rgba(225,226,234,1)",
+        "buttonCancelText": "rgba(60,60,60,1)",
+        "shadow": "3px 4px 80px rgba(0,0,0,0.06)"
+      }
+    },
+
+    "selectionChip": {
+      "green": {
+        "borderColor": "rgba(134,239,172,1)",
+        "backgroundColor": "rgba(240,253,244,1)",
+        "color": "rgba(21,128,61,1)"
+      },
+
+      "yellow": {
+        "borderColor": "rgba(253,224,71,1)",
+        "backgroundColor": "rgba(254,252,232,1)",
+        "color": "rgba(161,98,7,1)"
+      },
+
+      "red": {
+        "borderColor": "rgba(252,165,165,1)",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "color": "rgba(55,65,81,1)"
+      },
+
+      "white": {
+        "borderColor": "rgba(229,231,235,1)",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "hoverBorderColor": "rgba(209,213,219,1)",
+        "activeBorderColor": "rgba(99,102,241,1)"
+      }
+    },
+
+    "ProgressTrackCard": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)"
+    }
+  },
+
+  "Dark": {
+    "colors": {
+      "primaryColor": "rgba(79,70,229,1)",
+      "blue": "rgba(37,99,235,1)",
+      "blueLight": "rgba(219,234,254,1)",
+      "green": "rgba(22,163,74,1)",
+      "greenLight": "rgba(220,252,231,1)",
+      "purple": "rgba(147,51,234,1)",
+      "purpleLight": "rgba(243,232,255,1)",
+      "orange": "rgba(234,88,12,1)",
+      "orangeLight": "rgba(255,237,213,1)",
+      "red": "rgba(220,38,38,1)",
+      "redLight": "rgba(254,226,226,1)",
+      "gold": "rgba(234,179,8,1)",
+      "goldLight": "rgba(254,252,232,1)",
+      "goldBrown": "rgba(161,98,7,1)",
+      "indigo": "rgba(79,70,229,1)",
+      "indigoBorder": "rgba(199,210,254,1)",
+      "greenBorder": "rgba(134,239,172,1)",
+      "yellowBorder": "rgba(253,224,71,1)",
+      "redBorder": "rgba(252,165,165,1)",
+      "linkColor": "rgba(79,70,229,1)",
+      "buttonColor": "rgba(79,70,229,1)",
+      "headingColor": "rgba(31,41,55,1)",
+      "fontColor": "rgba(31,41,55,1)",
+      "labelColor": "rgba(75,85,99,1)",
+      "progressBarBg": "rgba(229,231,235,1)",
+      "stackListTwoColBgGray": "rgba(249,250,251,1)",
+      "stackListThreeColBgGray": "rgba(239,246,255,1)",
+      "tableRowHoverBgGray": "rgba(249,250,251,1)",
+      "tableRowHoverBorderGray": "rgba(243,244,246,1)",
+      "softGreen": "rgba(240,253,244,1)",
+      "softBlue": "rgba(239,246,255,1)",
+      "softBeige": "rgba(255,247,237,1)"
+    },
+
+    "colorCombos": {
+      "blue": {
+        "color": "rgba(37,99,235,1)",
+        "backgroundColor": "rgba(219,234,254,1)"
+      },
+      "green": {
+        "color": "rgba(22,163,74,1)",
+        "backgroundColor": "rgba(220,252,231,1)"
+      },
+      "purple": {
+        "color": "rgba(147,51,234,1)",
+        "backgroundColor": "rgba(243,232,255,1)"
+      },
+      "orange": {
+        "color": "rgba(234,88,12,1)",
+        "backgroundColor": "rgba(255,237,213,1)"
+      },
+      "red": {
+        "color": "rgba(220,38,38,1)",
+        "backgroundColor": "rgba(254,226,226,1)"
+      },
+      "gold": {
+        "color": "rgba(234,179,8,1)",
+        "backgroundColor": "rgba(254,252,232,1)"
+      },
+      "grey": {
+        "color": "rgba(75,85,99,1)",
+        "backgroundColor": "rgba(249,250,251,1)"
+      },
+      "indigo": {
+        "color": "rgba(79,70,229,1)",
+        "backgroundColor": "rgba(238,242,255,1)"
+      }
+    },
+
+    "linearGradients": {
+      "indigoToPurple": {
+        "background": "linear-gradient(to right, #4f46e5, #9333ea)"
+      },
+      "indigoToPink": {
+        "background": "linear-gradient(to right, #4f46e5, #db2777)"
+      },
+      "greenToGreen": {
+        "background": "linear-gradient(to right, #16a34a, #059669)"
+      },
+      "purple50toPink50": {
+        "background": "linear-gradient(to right, #faf5ff, #fdf2f8)"
+      },
+      "indigo50toPurple50": {
+        "background": "linear-gradient(to right, #eef2ff, #faf5ff)"
+      },
+      "brIndigo50toPurple50": {
+        "background": "linear-gradient(to bottom right, #eef2ff, #faf5ff)"
+      },
+      "brIndigoToPurple": {
+        "background": "linear-gradient(to bottom right, #ff7e5f, #feb47b)"
+      },
+      "brCyanToBlue": {
+        "background": "linear-gradient(to bottom right, #3b82f6, #0891b2)"
+      },
+      "brGreenToEmerald": {
+        "background": "linear-gradient(to bottom right, #22c55e, #059669)"
+      },
+      "brOrangeToRed": {
+        "background": "linear-gradient(to bottom right, #f97316, #dc2626)"
+      }
+    },
+
+    "typography": {
+      "hOne": {
+        "color": "rgba(31,41,55,1)"
+      },
+      "hTwo": {
+        "color": "rgba(31,41,55,1)"
+      },
+      "hThree": {
+        "color": "rgba(31,41,55,1)"
+      },
+      "textBold": {
+        "color": "rgba(31,41,55,1)"
+      },
+      "textLabelRegular": {
+        "color": "rgba(75,85,99,1)"
+      },
+      "textLabelSm": {
+        "color": "rgba(75,85,99,1)"
+      },
+      "textLabelXs": {
+        "color": "rgba(75,85,99,1)"
+      }
+    },
+
+    "cards": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "statCardCta": {
+        "borderColor": "rgba(229,231,235,1)"
+      }
+    },
+
+    "notificationIcon": {
+      "dotColor": "rgba(239,68,68,1)",
+      "hoverBackgroundColor": "rgba(243,244,246,1)"
+    },
+
+    "userIcon": {
+      "fontColor": "rgba(255,255,255,1)"
+    },
+
+    "userMenuFlyout": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)",
+      "userMenuFlyoutHeader": {
+        "background": "linear-gradient(to right, #4f46e5, #9333ea)",
+        "color": "rgba(255,255,255,1)",
+        "headerIcon": {
+          "backgroundColor": "rgba(255,255,255,0.2)"
+        },
+        "label": {
+          "color": "rgba(224,231,255,1)"
+        },
+
+        "chip": {
+          "backgroundColor": "rgba(255,255,255,0.1)",
+
+          "H3": {
+            "color": "rgba(31,41,55,1)"
+          },
+          "labelSmall": {
+            "color": "rgba(224,231,255,1)"
+          }
+        }
+      },
+      "userMenuFlyoutDivider": {
+        "borderColor": "rgba(243,244,246,1)"
+      }
+    },
+
+    "page": {
+      "fontColor": "rgba(31,41,55,1)",
+      "backgroundColor": "rgba(229,231,235,1)",
+      "borderColor": "rgba(229,231,235,1)"
+    },
+
+    "button": {
+      "fontColor": "rgba(255,255,255,1)",
+      "backgroundColor": "rgba(79,70,229,1)",
+      "hoverBackgroundColor": "rgba(17,82,147,1)",
+      "activeBackgroundColor": "rgba(13,60,122,1)",
+      "disabledBackgroundColor": "rgba(0,0,0,0.12)",
+      "small": {
+        "backgroundColor": "rgba(255,255,255,1)",
+        "borderColor": "rgba(209,213,219,1)",
+        "fontColor": "rgba(31,41,55,1)",
+        "hoverBgColor": "rgba(249,250,251,1)"
+      }
+    },
+
+    "input": {
+      "fontColor": "rgba(31,41,55,1)",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "placeholderColor": "rgba(0,0,0,0.4)",
+      "borderColor": "rgba(209,213,219,1)",
+      "focusBorderColor": "rgba(209,213,238,1)"
+    },
+
+    "inputSelect": {
+      "fontColor": "rgba(31,41,55,1)",
+      "borderColor": "rgba(209,213,219,0.2)"
+    },
+
+    "dropdown": {
+      "fontColor": "rgba(0,0,0,0.87)",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "hoverBackgroundColor": "rgba(0,0,0,0.05)",
+      "borderColor": "rgba(209,213,219,0.2)",
+      "boxShadow": "0px 2px 6px rgba(0,0,0,0.1)",
+      "stroke": "rgba(0,0,0,0)",
+      "fill": "rgba(255,255,255,1)",
+      "selectedBackground": "rgba(227,242,253,1)",
+      "selectedFontColor": "rgba(25,118,210,1)",
+      "chipBackground": "rgba(227,242,253,1)",
+      "chipColor": "rgba(25,118,210,1)"
+    },
+
+    "dropdownMultiSelect": {
+      "fontColor": "rgba(0,0,0,0.87)",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "hoverBackgroundColor": "rgba(0,0,0,0.05)",
+      "borderColor": "rgba(0,0,0,0.2)",
+      "fill": "rgba(255,255,255,1)",
+      "selectedBackground": "rgba(227,242,253,1)",
+      "selectedFontColor": "rgba(25,118,210,1)",
+      "chipBackground": "rgba(227,242,253,1)",
+      "chipColor": "rgba(25,118,210,1)"
+    },
+
+    "form": {
+      "labelColor": "rgba(55,65,81,0.7)",
+      "errorColor": "rgba(255,0,0,1)",
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(0,0,0,0.15)",
+      "boxShadow": "0px 1px 4px rgba(0,0,0,0.05)",
+      "stroke": "rgba(0,0,0,0)",
+      "fill": "rgba(255,255,255,1)",
+      "errorMessageColor": "rgba(211,47,47,1)",
+      "errorMessageBackground": "rgba(255,235,238,1)"
+    },
+
+    "switch": {
+      "activeColor": "rgba(25,118,210,1)",
+      "inactiveColor": "rgba(0,0,0,0.3)",
+      "thumbColor": "rgba(255,255,255,1)",
+      "trackColor": "rgba(209,213,219,0.25)"
+    },
+
+    "chips": {
+      "backgroundColor": "rgba(227,242,253,1)",
+      "borderColor": "rgba(144,202,249,1)",
+      "fontColor": "rgba(25,118,210,1)",
+      "deleteIconColor": "rgba(25,118,210,1)",
+      "hoverBackgroundColor": "rgba(187,222,251,1)"
+    },
+
+    "multiselect": {
+      "selectedBackground": "rgba(227,242,253,1)",
+      "selectedColor": "rgba(25,118,210,1)",
+      "menuBackground": "rgba(255,255,255,1)",
+      "menuHoverBackground": "rgba(240,247,255,1)",
+      "menuFontColor": "rgba(0,0,0,1)"
+    },
+
+    "sidemenu": {
+      "backgroundColor": "rgba(15,23,42,1)",
+      "fontColor": "rgba(255,255,255,1)",
+      "hoverColor": "rgba(255,255,255,1)",
+      "activeColor": "rgba(187,222,251,1)",
+      "borderColor": "rgba(30,41,59,1)",
+      "iconColor": "rgba(255,255,255,1)",
+      "header": {
+        "labelFontColor": "rgba(148,163,184,1)"
+      },
+
+      "footer": {
+        "borderColor": "rgba(55,65,81,1)",
+        "widget": {
+          "borderColor": "rgba(55,48,163,0.5)"
+        }
+      }
+    },
+
+    "header": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)"
+    },
+
+    "link": {
+      "color": "rgba(79,70,229,1)",
+      "hoverColor": "rgba(79,70,229,1)"
+    },
+
+    "alert": {
+      "toast": {
+        "background": "rgba(255,255,255,1)",
+        "textColor": "rgba(34,34,34,1)",
+        "shadow": "0px 4px 12px rgba(0,0,0,0.15)",
+        "successBorder": "rgba(62,189,147,1)",
+        "errorBorder": "rgba(255,77,77,1)"
+      },
+      "modern": {
+        "popupBackground": "rgba(255,255,255,1)",
+        "titleColor": "rgba(31,41,55,1)",
+        "messageColor": "rgba(60,60,60,1)",
+        "iconBackground": "rgba(255,244,236,1)",
+        "iconColor": "rgba(255,157,102,1)",
+        "buttonConfirmBg": "rgba(25,90,254,1)",
+        "buttonConfirmHover": "rgba(21,74,223,1)",
+        "buttonCancelBorder": "rgba(225,226,234,1)",
+        "buttonCancelText": "rgba(60,60,60,1)",
+        "shadow": "3px 4px 80px rgba(0,0,0,0.06)"
+      }
+    },
+
+    "selectionChip": {
+      "green": {
+        "borderColor": "rgba(134,239,172,1)",
+        "backgroundColor": "rgba(240,253,244,1)",
+        "color": "rgba(21,128,61,1)"
+      },
+
+      "yellow": {
+        "borderColor": "rgba(253,224,71,1)",
+        "backgroundColor": "rgba(254,252,232,1)",
+        "color": "rgba(161,98,7,1)"
+      },
+
+      "red": {
+        "borderColor": "rgba(252,165,165,1)",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "color": "rgba(55,65,81,1)"
+      },
+
+      "white": {
+        "borderColor": "rgba(229,231,235,1)",
+        "backgroundColor": "rgba(255,255,255,1)",
+        "hoverBorderColor": "rgba(209,213,219,1)",
+        "activeBorderColor": "rgba(99,102,241,1)"
+      }
+    },
+
+    "ProgressTrackCard": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "borderColor": "rgba(229,231,235,1)"
+    }
+  }
+}
